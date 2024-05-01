@@ -1,5 +1,5 @@
 Integrantes del grupo
 - Vocos Jael
 - Alaniz Alejandra
-- Dominguez Debora
+- Juarez Debora Noemi
 - Rojas Margaritini Juan Pablo
