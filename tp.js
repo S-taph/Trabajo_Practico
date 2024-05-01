@@ -6,8 +6,7 @@ const silos = [
 ];
 let carga = 3000;
 
-function recepcionMaiz () { /*Consulta al usuario la condicion del maiz y
-devuelve el nro del silo donde corresponde depositarlo*/
+function recepcionMaiz () {
     let estadoMaiz = parseInt(prompt('Según el estado del maiz, ingrese:\n' +
     '* 1 si el maiz está en óptimas condiciones.\n' +
     '* 2 si el maiz tiene cuerpos extraños.\n' +
@@ -15,9 +14,9 @@ devuelve el nro del silo donde corresponde depositarlo*/
     while (estadoMaiz !== 1 && estadoMaiz !== 2 && estadoMaiz !== 3) {
         alert('La opción ingresada es incorrecta.');
         estadoMaiz = parseInt(prompt('Según el estado del maiz, ingrese:\n' +
-                                    '* 1 si el maiz está en óptimas condiciones.\n' +
-                                    '* 2 si el maiz tiene cuerpos extraños.\n' +
-                                    '* 3 si el maiz está húmedo.'));
+    '* 1 si el maiz está en óptimas condiciones.\n' +
+    '* 2 si el maiz tiene cuerpos extraños.\n' +
+    '* 3 si el maiz está húmedo.'));
     
     }
 
